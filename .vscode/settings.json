@@ -1,25 +1,30 @@
 {
-  "[json, jsonc]": {
+"workbench.iconTheme": "vscode-icons",
+"workbench.colorCustomizations": {
+    "tab.activeBackground": "#d50c0c"
+},
+"cSpell.userWords": [
+    "beachball",
+    "Centro",
+    "fluentui",
+    "lage",
+    "parentid",
+    "vstoken",
+    "vsts"
+],
+"[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript, typescriptreact]": {
+},
+"explorer.confirmDelete": false,
+"[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript, javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  // Controls whether the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
-  "editor.formatOnPaste": true,
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "eslint.packageManager": "yarn",
-  "eslint.alwaysShowStatus": true,
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.renderWhitespace": "all",
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.unusualLineTerminators": "auto" // Stops warning message when looking at a Content.json file
+},
+"editor.formatOnSave": true,
+"editor.formatOnPaste": true,
+"terminal.integrated.scrollback": 10000,
+"git.confirmSync": false,
+"eslint.alwaysShowStatus": true,
+"editor.fontLigatures": false,
+"editor.bracketPairColorization.enabled": true,
+
 }
